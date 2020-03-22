@@ -20,7 +20,7 @@ const Login = ({ history }) => {
     [history]
   );
 
-  const handleSignup = {
+  const handleSignup = () => {
     return <Redirect to="/signup" />
 }
 
