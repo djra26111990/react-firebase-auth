@@ -20,6 +20,10 @@ const Login = ({ history }) => {
     [history]
   );
 
+  const handleSignup = {
+    return <Redirect to="/signup" />
+}
+
   const { currentUser } = useContext(AuthContext);
 
   if (currentUser) {
@@ -39,7 +43,9 @@ const Login = ({ history }) => {
           <input name="password" type="password" placeholder="Password" />
         </label>
         <button type="submit">Log in</button>
-        <a href={"/signup"}</a>
+      </form>
+      <form onSubmit={handleSignup}>
+        <button type="submit">Sign up</button>
       </form>
     </div>
   );
