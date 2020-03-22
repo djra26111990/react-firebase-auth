@@ -44,8 +44,13 @@ const Login = ({ history }) => {
         </label>
         <button type="submit">Log in</button>
       </form>
+    </div>
+    <div>
       <form onSubmit={handleSignup}>
+        <label>
+        Press button to signup
         <button type="submit">Sign up</button>
+        </label>
       </form>
     </div>
   );
