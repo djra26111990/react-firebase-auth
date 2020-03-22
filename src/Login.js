@@ -39,6 +39,7 @@ const Login = ({ history }) => {
           <input name="password" type="password" placeholder="Password" />
         </label>
         <button type="submit">Log in</button>
+        <a href={"/signup"}</a>
       </form>
     </div>
   );
