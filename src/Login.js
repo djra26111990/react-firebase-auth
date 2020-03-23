@@ -3,6 +3,11 @@ import { withRouter, Redirect } from "react-router";
 import app from "./base.js";
 import { AuthContext } from "./Auth.js";
 
+const handleSignup = () => {
+    return <Redirect to="/signup" />
+}
+
+
 const Login = ({ history }) => {
   const handleLogin = useCallback(
     async event => {
@@ -19,10 +24,6 @@ const Login = ({ history }) => {
     },
     [history]
   );
-
-  const handleSignup = () => {
-    return <Redirect to="/signup" />
-}
 
   const { currentUser } = useContext(AuthContext);
 
