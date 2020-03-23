@@ -31,7 +31,8 @@ const Login = ({ history }) => {
   }
 
   return (
-    <div>
+    <>
+      <div>
       <h1>Log in</h1>
       <form onSubmit={handleLogin}>
         <label>
@@ -52,7 +53,8 @@ const Login = ({ history }) => {
         <button type="submit">Sign up</button>
         </label>
       </form>
-    </div>
+     </div>
+    </>
   );
 };
 
