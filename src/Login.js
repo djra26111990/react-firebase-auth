@@ -45,8 +45,8 @@ const Login = ({ history }) => {
     </div>
     <div>
         <label>
-        Press link to signup
-        <a href="/signup" />
+        Press link to
+        <a href="/signup">sign up</a>
         </label>
      </div>
     </>
