@@ -3,10 +3,6 @@ import { withRouter, Redirect } from "react-router";
 import app from "./base.js";
 import { AuthContext } from "./Auth.js";
 
-const handleSignup = () => {
-    return <Redirect to="/signup" />
-}
-
 
 const Login = ({ history }) => {
   const handleLogin = useCallback(
@@ -48,12 +44,10 @@ const Login = ({ history }) => {
       </form>
     </div>
     <div>
-      <form onSubmit={handleSignup}>
         <label>
-        Press button to signup
-        <button type="submit">Sign up</button>
+        Press link to signup
+        <a href="/signup" />
         </label>
-      </form>
      </div>
     </>
   );
