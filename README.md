@@ -1,5 +1,5 @@
-# React Firebase Authentication Example
+# React Firebase Authentication Project
 
 Put your credentials to `.env`.
 
-Run `yarn start` to start application.
+Run `npm start` to start application.
