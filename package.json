@@ -1,14 +1,17 @@
 {
-  "name": "react-firebase-auth",
-  "version": "0.1.0",
+  "name": "react-firebase-project",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "firebase": "^5.10.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0"
+    "axios": "0.19.2",
+    "bootstrap": "4.4.1",
+    "firebase": "7.12.0",
+    "react": "16.12.0",
+    "react-bootstrap": "1.0.0",
+    "react-datepicker": "2.14.1",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1",
+    "tablesaw": "3.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
